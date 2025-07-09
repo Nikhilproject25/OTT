@@ -188,14 +188,15 @@ const mockMovies = [
 ];
 
 const categories = [
+  { id: 'telugu', title: 'Telugu Blockbusters', movies: mockMovies.filter(m => m.categories.includes('telugu')) },
   { id: 'trending', title: 'Trending Now', movies: mockMovies.filter(m => m.categories.includes('trending')) },
-  { id: 'popular', title: 'Popular on Netflix', movies: mockMovies.filter(m => m.categories.includes('popular')) },
+  { id: 'popular', title: 'Popular Movies', movies: mockMovies.filter(m => m.categories.includes('popular')) },
   { id: 'action', title: 'Action Movies', movies: mockMovies.filter(m => m.categories.includes('action')) },
   { id: 'drama', title: 'Drama Series', movies: mockMovies.filter(m => m.categories.includes('drama')) },
-  { id: 'horror', title: 'Horror Movies', movies: mockMovies.filter(m => m.categories.includes('horror')) },
-  { id: 'sci-fi', title: 'Sci-Fi & Fantasy', movies: mockMovies.filter(m => m.categories.includes('sci-fi')) },
-  { id: 'anime', title: 'Anime', movies: mockMovies.filter(m => m.categories.includes('anime')) },
-  { id: 'kids', title: 'Kids & Family', movies: mockMovies.filter(m => m.categories.includes('kids')) }
+  { id: 'romance', title: 'Romance Movies', movies: mockMovies.filter(m => m.categories.includes('romance')) },
+  { id: 'comedy', title: 'Comedy Movies', movies: mockMovies.filter(m => m.categories.includes('comedy')) },
+  { id: 'epic', title: 'Epic Movies', movies: mockMovies.filter(m => m.categories.includes('epic')) },
+  { id: 'anime', title: 'Anime Series', movies: mockMovies.filter(m => m.categories.includes('anime')) }
 ];
 
 // Header Component
