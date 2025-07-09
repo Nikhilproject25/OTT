@@ -219,10 +219,10 @@ export const Header = ({ onSearch, searchQuery, setSearchQuery, showSearch, setS
         <div className="flex items-center space-x-8">
           <div className="text-red-600 text-2xl font-bold">CINESTREAM</div>
           <nav className="hidden md:flex space-x-6">
-            <a href="#" className="text-white hover:text-gray-300 transition-colors">Home</a>
-            <a href="#" className="text-white hover:text-gray-300 transition-colors">TV Shows</a>
+            <a href="#" className="text-white hover:text-gray-300 transition-colors">Telugu</a>
             <a href="#" className="text-white hover:text-gray-300 transition-colors">Movies</a>
-            <a href="#" className="text-white hover:text-gray-300 transition-colors">New & Popular</a>
+            <a href="#" className="text-white hover:text-gray-300 transition-colors">Series</a>
+            <a href="#" className="text-white hover:text-gray-300 transition-colors">Trending</a>
             <a href="#" className="text-white hover:text-gray-300 transition-colors">My List</a>
           </nav>
         </div>
