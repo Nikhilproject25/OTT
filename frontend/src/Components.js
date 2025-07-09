@@ -233,7 +233,7 @@ export const Header = ({ onSearch, searchQuery, setSearchQuery, showSearch, setS
               <Search className="text-white ml-3" size={20} />
               <input
                 type="text"
-                placeholder="Search movies, shows..."
+                placeholder="Search Telugu movies, shows..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="bg-transparent text-white placeholder-gray-400 px-3 py-2 focus:outline-none w-64"
